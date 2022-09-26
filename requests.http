@@ -1,2 +1,15 @@
 # get products index
 GET http://localhost:3000/products.json
+
+### post create product
+POST http://localhost:3000/products.json
+Content-Type: application/json
+
+{
+     "name": "Fuzzy Bear",
+     "description": "Cuddly toy",
+     "price": 20,
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUqOg_sobfA9RdVryCWIaBESmzJeUg14nWOg&usqp=CAU"
+}
+
+  
